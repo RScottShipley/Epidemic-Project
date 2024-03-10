@@ -1,0 +1,12 @@
+population 100 ;
+place home 4.0 0.0 ;
+place work 2.0 1.0 ;
+place school 1.0 0.0 ;
+role homemaker 0.3
+   home ;
+role worker 0.4
+   home
+   work ;
+role student 0.3
+   home
+   school ;
